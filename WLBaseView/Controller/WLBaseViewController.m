@@ -69,10 +69,6 @@
     self.toolbarHidden = YES;
     self.titleColor = kNavTitleColor;
     self.view.backgroundColor = [UIColor whiteColor];
-    
-    self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
-    self.navigationController.navigationBar.translucent = YES;
-    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
 }
 
 - (void)setTitleColor:(UIColor *)titleColor {
