@@ -1,13 +1,13 @@
 //
-//  WLBaseViewHeader.h.h
+//  WLBaseViewHeader.h
 //  WLBaseView
 //
 //  Created by 刘光强 on 2018/5/10.
 //  Copyright © 2018年 quangqiang. All rights reserved.
 //
 
-#ifndef WLBaseViewHeader.h_h
-#define WLBaseViewHeader.h_h
+#ifndef WLBaseViewHeader_h
+#define WLBaseViewHeader_h
 
 #import "UINavigationController+WLExtension.h"
 #import "UIViewController+WLNavigationItem.h"
@@ -31,4 +31,4 @@
 #import "WLBaseView.h"
 #import "WLBaseViewProtocol.h"
 
-#endif /* WLBaseViewHeader.h_h */
+#endif /* WLBaseViewHeader_h */
