@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
                        TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://gitlab.qianbaocard.org/iOS/base/WLBaseView'
+  s.homepage         = 'git@gitlab.qianbaocard.org:iOS/base/WLBaseView.git'
   s.license          = "MIT"
   s.author           = { 'guangqiang' => '1126756952@qq.com' }
   s.source           = { :git => 'git@gitlab.qianbaocard.org:iOS/base/WLBaseView.git', :tag => s.version.to_s }
