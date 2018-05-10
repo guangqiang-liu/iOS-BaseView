@@ -13,6 +13,26 @@
 		9CC4FF2E20A40C4100232074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC4FF2D20A40C4100232074 /* Assets.xcassets */; };
 		9CC4FF3120A40C4100232074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC4FF2F20A40C4100232074 /* LaunchScreen.storyboard */; };
 		9CC4FF3420A40C4200232074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF3320A40C4200232074 /* main.m */; };
+		9CC4FF5F20A40C6E00232074 /* WLBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF3C20A40C6E00232074 /* WLBaseViewModel.m */; };
+		9CC4FF6020A40C6E00232074 /* UIViewController+WLNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF3F20A40C6E00232074 /* UIViewController+WLNavigationItem.m */; };
+		9CC4FF6120A40C6E00232074 /* UINavigationController+WLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF4020A40C6E00232074 /* UINavigationController+WLExtension.m */; };
+		9CC4FF6220A40C6E00232074 /* WLBaseCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF4620A40C6E00232074 /* WLBaseCollectionReusableView.m */; };
+		9CC4FF6320A40C6E00232074 /* WLBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF4A20A40C6E00232074 /* WLBaseCollectionViewCell.m */; };
+		9CC4FF6420A40C6E00232074 /* WLBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF4B20A40C6E00232074 /* WLBaseView.m */; };
+		9CC4FF6520A40C6E00232074 /* WLBaseTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF4C20A40C6E00232074 /* WLBaseTableViewHeaderFooterView.m */; };
+		9CC4FF6620A40C6E00232074 /* WLBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF4D20A40C6E00232074 /* WLBaseTableViewCell.m */; };
+		9CC4FF6720A40C6E00232074 /* WLBaseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF4E20A40C6E00232074 /* WLBaseCollectionView.m */; };
+		9CC4FF6820A40C6E00232074 /* WLBaseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF5020A40C6E00232074 /* WLBaseImageView.m */; };
+		9CC4FF6920A40C6E00232074 /* WLBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF5120A40C6E00232074 /* WLBaseTableView.m */; };
+		9CC4FF6A20A40C6E00232074 /* WLBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF5420A40C6E00232074 /* WLBaseCollectionViewController.m */; };
+		9CC4FF6B20A40C6E00232074 /* WLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF5720A40C6E00232074 /* WLBaseViewController.m */; };
+		9CC4FF6C20A40C6E00232074 /* WLBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF5820A40C6E00232074 /* WLBaseWebViewController.m */; };
+		9CC4FF6D20A40C6E00232074 /* WLBaseTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF5B20A40C6E00232074 /* WLBaseTableViewViewController.m */; };
+		9CC4FF6E20A40C6E00232074 /* WLBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF5D20A40C6E00232074 /* WLBaseModel.m */; };
+		9CC4FF7320A4102100232074 /* WLBViewModelServiceImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF7220A4102100232074 /* WLBViewModelServiceImp.m */; };
+		9CC4FF7A20A4197700232074 /* icon_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC4FF7820A4197700232074 /* icon_back@3x.png */; };
+		9CC4FF7B20A4197700232074 /* icon_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC4FF7920A4197700232074 /* icon_back@2x.png */; };
+		BDD6FE09503A4124BD7BC0B5 /* Pods_WLBaseView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5B0D0E51028A29D6689274 /* Pods_WLBaseView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +46,50 @@
 		9CC4FF3020A40C4100232074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CC4FF3220A40C4100232074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CC4FF3320A40C4200232074 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CC4FF3B20A40C6E00232074 /* WLBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseViewModel.h; sourceTree = "<group>"; };
+		9CC4FF3C20A40C6E00232074 /* WLBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBaseViewModel.m; sourceTree = "<group>"; };
+		9CC4FF3E20A40C6E00232074 /* UINavigationController+WLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+WLExtension.h"; sourceTree = "<group>"; };
+		9CC4FF3F20A40C6E00232074 /* UIViewController+WLNavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WLNavigationItem.m"; sourceTree = "<group>"; };
+		9CC4FF4020A40C6E00232074 /* UINavigationController+WLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+WLExtension.m"; sourceTree = "<group>"; };
+		9CC4FF4120A40C6E00232074 /* UIViewController+WLNavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WLNavigationItem.h"; sourceTree = "<group>"; };
+		9CC4FF4320A40C6E00232074 /* WLBaseTableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseTableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		9CC4FF4420A40C6E00232074 /* WLBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseView.h; sourceTree = "<group>"; };
+		9CC4FF4520A40C6E00232074 /* WLBaseCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseCollectionView.h; sourceTree = "<group>"; };
+		9CC4FF4620A40C6E00232074 /* WLBaseCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBaseCollectionReusableView.m; sourceTree = "<group>"; };
+		9CC4FF4720A40C6E00232074 /* WLBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseTableViewCell.h; sourceTree = "<group>"; };
+		9CC4FF4820A40C6E00232074 /* WLBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseTableView.h; sourceTree = "<group>"; };
+		9CC4FF4920A40C6E00232074 /* WLBaseImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseImageView.h; sourceTree = "<group>"; };
+		9CC4FF4A20A40C6E00232074 /* WLBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		9CC4FF4B20A40C6E00232074 /* WLBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBaseView.m; sourceTree = "<group>"; };
+		9CC4FF4C20A40C6E00232074 /* WLBaseTableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBaseTableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		9CC4FF4D20A40C6E00232074 /* WLBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBaseTableViewCell.m; sourceTree = "<group>"; };
+		9CC4FF4E20A40C6E00232074 /* WLBaseCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBaseCollectionView.m; sourceTree = "<group>"; };
+		9CC4FF4F20A40C6E00232074 /* WLBaseCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseCollectionReusableView.h; sourceTree = "<group>"; };
+		9CC4FF5020A40C6E00232074 /* WLBaseImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBaseImageView.m; sourceTree = "<group>"; };
+		9CC4FF5120A40C6E00232074 /* WLBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBaseTableView.m; sourceTree = "<group>"; };
+		9CC4FF5220A40C6E00232074 /* WLBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		9CC4FF5420A40C6E00232074 /* WLBaseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBaseCollectionViewController.m; sourceTree = "<group>"; };
+		9CC4FF5520A40C6E00232074 /* WLBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseWebViewController.h; sourceTree = "<group>"; };
+		9CC4FF5620A40C6E00232074 /* WLBaseTableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseTableViewViewController.h; sourceTree = "<group>"; };
+		9CC4FF5720A40C6E00232074 /* WLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBaseViewController.m; sourceTree = "<group>"; };
+		9CC4FF5820A40C6E00232074 /* WLBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBaseWebViewController.m; sourceTree = "<group>"; };
+		9CC4FF5920A40C6E00232074 /* WLBaseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseCollectionViewController.h; sourceTree = "<group>"; };
+		9CC4FF5A20A40C6E00232074 /* WLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseViewController.h; sourceTree = "<group>"; };
+		9CC4FF5B20A40C6E00232074 /* WLBaseTableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBaseTableViewViewController.m; sourceTree = "<group>"; };
+		9CC4FF5D20A40C6E00232074 /* WLBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBaseModel.m; sourceTree = "<group>"; };
+		9CC4FF5E20A40C6E00232074 /* WLBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseModel.h; sourceTree = "<group>"; };
+		9CC4FF6F20A40F9700232074 /* WLBaseViewControllerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLBaseViewControllerProtocol.h; sourceTree = "<group>"; };
+		9CC4FF7020A40FDB00232074 /* WLBaseViewModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLBaseViewModelProtocol.h; sourceTree = "<group>"; };
+		9CC4FF7120A4102100232074 /* WLBViewModelServiceImp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLBViewModelServiceImp.h; sourceTree = "<group>"; };
+		9CC4FF7220A4102100232074 /* WLBViewModelServiceImp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLBViewModelServiceImp.m; sourceTree = "<group>"; };
+		9CC4FF7420A4105200232074 /* WLBViewModelServiceImpProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLBViewModelServiceImpProtocol.h; sourceTree = "<group>"; };
+		9CC4FF7520A411EA00232074 /* WLBaseView.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLBaseView.pch; sourceTree = "<group>"; };
+		9CC4FF7620A412A700232074 /* WLBaseViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLBaseViewProtocol.h; sourceTree = "<group>"; };
+		9CC4FF7820A4197700232074 /* icon_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_back@3x.png"; sourceTree = "<group>"; };
+		9CC4FF7920A4197700232074 /* icon_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_back@2x.png"; sourceTree = "<group>"; };
+		9F5B0D0E51028A29D6689274 /* Pods_WLBaseView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLBaseView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB07E066783FBF7A9C90713A /* Pods-WLBaseView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLBaseView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLBaseView/Pods-WLBaseView.debug.xcconfig"; sourceTree = "<group>"; };
+		D45FE15CFFFE1B1ECDCA37D7 /* Pods-WLBaseView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLBaseView.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLBaseView/Pods-WLBaseView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +97,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDD6FE09503A4124BD7BC0B5 /* Pods_WLBaseView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		472158E141948C05CE227094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F5B0D0E51028A29D6689274 /* Pods_WLBaseView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A7023206FEEEF90EF63EDFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB07E066783FBF7A9C90713A /* Pods-WLBaseView.debug.xcconfig */,
+				D45FE15CFFFE1B1ECDCA37D7 /* Pods-WLBaseView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9CC4FF1820A40C4100232074 = {
 			isa = PBXGroup;
 			children = (
 				9CC4FF2320A40C4100232074 /* WLBaseView */,
 				9CC4FF2220A40C4100232074 /* Products */,
+				8A7023206FEEEF90EF63EDFC /* Pods */,
+				472158E141948C05CE227094 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +142,12 @@
 		9CC4FF2320A40C4100232074 /* WLBaseView */ = {
 			isa = PBXGroup;
 			children = (
+				9CC4FF7720A4182C00232074 /* Resource */,
+				9CC4FF3D20A40C6E00232074 /* Category */,
+				9CC4FF5320A40C6E00232074 /* Controller */,
+				9CC4FF5C20A40C6E00232074 /* Model */,
+				9CC4FF3A20A40C6E00232074 /* ViewModel */,
+				9CC4FF4220A40C6E00232074 /* View */,
 				9CC4FF2420A40C4100232074 /* AppDelegate.h */,
 				9CC4FF2520A40C4100232074 /* AppDelegate.m */,
 				9CC4FF2720A40C4100232074 /* ViewController.h */,
@@ -67,8 +157,91 @@
 				9CC4FF2F20A40C4100232074 /* LaunchScreen.storyboard */,
 				9CC4FF3220A40C4100232074 /* Info.plist */,
 				9CC4FF3320A40C4200232074 /* main.m */,
+				9CC4FF7520A411EA00232074 /* WLBaseView.pch */,
 			);
 			path = WLBaseView;
+			sourceTree = "<group>";
+		};
+		9CC4FF3A20A40C6E00232074 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9CC4FF3B20A40C6E00232074 /* WLBaseViewModel.h */,
+				9CC4FF3C20A40C6E00232074 /* WLBaseViewModel.m */,
+				9CC4FF7020A40FDB00232074 /* WLBaseViewModelProtocol.h */,
+				9CC4FF7120A4102100232074 /* WLBViewModelServiceImp.h */,
+				9CC4FF7220A4102100232074 /* WLBViewModelServiceImp.m */,
+				9CC4FF7420A4105200232074 /* WLBViewModelServiceImpProtocol.h */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9CC4FF3D20A40C6E00232074 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9CC4FF4120A40C6E00232074 /* UIViewController+WLNavigationItem.h */,
+				9CC4FF3F20A40C6E00232074 /* UIViewController+WLNavigationItem.m */,
+				9CC4FF3E20A40C6E00232074 /* UINavigationController+WLExtension.h */,
+				9CC4FF4020A40C6E00232074 /* UINavigationController+WLExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9CC4FF4220A40C6E00232074 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9CC4FF4320A40C6E00232074 /* WLBaseTableViewHeaderFooterView.h */,
+				9CC4FF4C20A40C6E00232074 /* WLBaseTableViewHeaderFooterView.m */,
+				9CC4FF4520A40C6E00232074 /* WLBaseCollectionView.h */,
+				9CC4FF4E20A40C6E00232074 /* WLBaseCollectionView.m */,
+				9CC4FF4F20A40C6E00232074 /* WLBaseCollectionReusableView.h */,
+				9CC4FF4620A40C6E00232074 /* WLBaseCollectionReusableView.m */,
+				9CC4FF4720A40C6E00232074 /* WLBaseTableViewCell.h */,
+				9CC4FF4D20A40C6E00232074 /* WLBaseTableViewCell.m */,
+				9CC4FF5220A40C6E00232074 /* WLBaseCollectionViewCell.h */,
+				9CC4FF4A20A40C6E00232074 /* WLBaseCollectionViewCell.m */,
+				9CC4FF4820A40C6E00232074 /* WLBaseTableView.h */,
+				9CC4FF5120A40C6E00232074 /* WLBaseTableView.m */,
+				9CC4FF4420A40C6E00232074 /* WLBaseView.h */,
+				9CC4FF4B20A40C6E00232074 /* WLBaseView.m */,
+				9CC4FF7620A412A700232074 /* WLBaseViewProtocol.h */,
+				9CC4FF4920A40C6E00232074 /* WLBaseImageView.h */,
+				9CC4FF5020A40C6E00232074 /* WLBaseImageView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9CC4FF5320A40C6E00232074 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9CC4FF5920A40C6E00232074 /* WLBaseCollectionViewController.h */,
+				9CC4FF5420A40C6E00232074 /* WLBaseCollectionViewController.m */,
+				9CC4FF5620A40C6E00232074 /* WLBaseTableViewViewController.h */,
+				9CC4FF5B20A40C6E00232074 /* WLBaseTableViewViewController.m */,
+				9CC4FF5A20A40C6E00232074 /* WLBaseViewController.h */,
+				9CC4FF5720A40C6E00232074 /* WLBaseViewController.m */,
+				9CC4FF6F20A40F9700232074 /* WLBaseViewControllerProtocol.h */,
+				9CC4FF5520A40C6E00232074 /* WLBaseWebViewController.h */,
+				9CC4FF5820A40C6E00232074 /* WLBaseWebViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9CC4FF5C20A40C6E00232074 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9CC4FF5E20A40C6E00232074 /* WLBaseModel.h */,
+				9CC4FF5D20A40C6E00232074 /* WLBaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9CC4FF7720A4182C00232074 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9CC4FF7920A4197700232074 /* icon_back@2x.png */,
+				9CC4FF7820A4197700232074 /* icon_back@3x.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CC4FF3720A40C4200232074 /* Build configuration list for PBXNativeTarget "WLBaseView" */;
 			buildPhases = (
+				4F2480B06378128177655899 /* [CP] Check Pods Manifest.lock */,
 				9CC4FF1D20A40C4100232074 /* Sources */,
 				9CC4FF1E20A40C4100232074 /* Frameworks */,
 				9CC4FF1F20A40C4100232074 /* Resources */,
+				F1CF345C06FFCADA71447976 /* [CP] Embed Pods Frameworks */,
+				DEF172787912A1787871B5F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,18 +308,91 @@
 				9CC4FF3120A40C4100232074 /* LaunchScreen.storyboard in Resources */,
 				9CC4FF2E20A40C4100232074 /* Assets.xcassets in Resources */,
 				9CC4FF2C20A40C4100232074 /* Main.storyboard in Resources */,
+				9CC4FF7A20A4197700232074 /* icon_back@3x.png in Resources */,
+				9CC4FF7B20A4197700232074 /* icon_back@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F2480B06378128177655899 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WLBaseView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEF172787912A1787871B5F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLBaseView/Pods-WLBaseView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1CF345C06FFCADA71447976 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WLBaseView/Pods-WLBaseView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WLBaseView/Pods-WLBaseView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9CC4FF1D20A40C4100232074 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CC4FF6220A40C6E00232074 /* WLBaseCollectionReusableView.m in Sources */,
+				9CC4FF6020A40C6E00232074 /* UIViewController+WLNavigationItem.m in Sources */,
+				9CC4FF6720A40C6E00232074 /* WLBaseCollectionView.m in Sources */,
+				9CC4FF7320A4102100232074 /* WLBViewModelServiceImp.m in Sources */,
+				9CC4FF6320A40C6E00232074 /* WLBaseCollectionViewCell.m in Sources */,
 				9CC4FF2920A40C4100232074 /* ViewController.m in Sources */,
+				9CC4FF6520A40C6E00232074 /* WLBaseTableViewHeaderFooterView.m in Sources */,
+				9CC4FF6420A40C6E00232074 /* WLBaseView.m in Sources */,
+				9CC4FF6920A40C6E00232074 /* WLBaseTableView.m in Sources */,
+				9CC4FF6D20A40C6E00232074 /* WLBaseTableViewViewController.m in Sources */,
+				9CC4FF6120A40C6E00232074 /* UINavigationController+WLExtension.m in Sources */,
+				9CC4FF6E20A40C6E00232074 /* WLBaseModel.m in Sources */,
+				9CC4FF6620A40C6E00232074 /* WLBaseTableViewCell.m in Sources */,
 				9CC4FF3420A40C4200232074 /* main.m in Sources */,
+				9CC4FF6A20A40C6E00232074 /* WLBaseCollectionViewController.m in Sources */,
+				9CC4FF5F20A40C6E00232074 /* WLBaseViewModel.m in Sources */,
+				9CC4FF6820A40C6E00232074 /* WLBaseImageView.m in Sources */,
+				9CC4FF6B20A40C6E00232074 /* WLBaseViewController.m in Sources */,
+				9CC4FF6C20A40C6E00232074 /* WLBaseWebViewController.m in Sources */,
 				9CC4FF2620A40C4100232074 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,10 +525,13 @@
 		};
 		9CC4FF3820A40C4200232074 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB07E066783FBF7A9C90713A /* Pods-WLBaseView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WLBaseView/WLBaseView.pch";
 				INFOPLIST_FILE = WLBaseView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = quangqiang.WLBaseView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,10 +541,13 @@
 		};
 		9CC4FF3920A40C4200232074 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D45FE15CFFFE1B1ECDCA37D7 /* Pods-WLBaseView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WLBaseView/WLBaseView.pch";
 				INFOPLIST_FILE = WLBaseView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = quangqiang.WLBaseView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
