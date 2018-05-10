@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WLBaseView'
-  s.version          = '0.0.2'
+  s.version          = '0.1.5'
   s.summary          = '常用View的基础base类'
 
 # This description is used to generate tags and improve search results.
