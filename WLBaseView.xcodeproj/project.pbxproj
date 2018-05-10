@@ -87,7 +87,7 @@
 		9CC4FF7620A412A700232074 /* WLBaseViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLBaseViewProtocol.h; sourceTree = "<group>"; };
 		9CC4FF7820A4197700232074 /* icon_back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_back@3x.png"; sourceTree = "<group>"; };
 		9CC4FF7920A4197700232074 /* icon_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_back@2x.png"; sourceTree = "<group>"; };
-		9CC4FF7C20A42FEA00232074 /* BaseViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewHeader.h; sourceTree = "<group>"; };
+		9CC4FF7C20A42FEA00232074 /* WLBaseViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLBaseViewHeader.h; sourceTree = "<group>"; };
 		9F5B0D0E51028A29D6689274 /* Pods_WLBaseView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLBaseView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB07E066783FBF7A9C90713A /* Pods-WLBaseView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLBaseView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WLBaseView/Pods-WLBaseView.debug.xcconfig"; sourceTree = "<group>"; };
 		D45FE15CFFFE1B1ECDCA37D7 /* Pods-WLBaseView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLBaseView.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLBaseView/Pods-WLBaseView.release.xcconfig"; sourceTree = "<group>"; };
@@ -232,7 +232,7 @@
 			children = (
 				9CC4FF5E20A40C6E00232074 /* WLBaseModel.h */,
 				9CC4FF5D20A40C6E00232074 /* WLBaseModel.m */,
-				9CC4FF7C20A42FEA00232074 /* BaseViewHeader.h */,
+				9CC4FF7C20A42FEA00232074 /* WLBaseViewHeader.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";
