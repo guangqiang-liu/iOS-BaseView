@@ -64,6 +64,7 @@
     self.viewAppeared = NO;
 }
 
+#pragma mark - 基类初始化设置
 - (void)initialize {
     self.navigationBarHidden = NO;
     self.toolbarHidden = YES;
