@@ -69,7 +69,7 @@
     self.navigationBarHidden = NO;
     self.toolbarHidden = YES;
     self.titleColor = kNavTitleColor;
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = HexRGB(0xFAF9F9);
 }
 
 - (void)setTitleColor:(UIColor *)titleColor {
