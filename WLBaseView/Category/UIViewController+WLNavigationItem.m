@@ -32,7 +32,7 @@
 
 - (void)setNavigationItemLeftBarButtonItem:(SEL)btnSel withTitle:(NSString *)title withTitleColor:(UIColor *)color {
     UIButton *itemBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    itemBtn.frame = CGRectMake(0, 0, 55, 55);
+    itemBtn.frame = CGRectMake(0, 0, 60, 60);
     [itemBtn setTitle:title forState:UIControlStateNormal];
     [itemBtn setTitleColor:color forState:UIControlStateNormal];
     itemBtn.titleLabel.font = kNavItemFont;
@@ -66,7 +66,7 @@
 
 - (void)setNavigationItemRightBarButtonItem:(SEL)btnSel withTitle:(NSString *)title withTitleColor:(UIColor *)color {
     UIButton *itemBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    itemBtn.frame = CGRectMake(0, 0, 55, 55);
+    itemBtn.frame = CGRectMake(0, 0, 60, 60);
     [itemBtn setTitle:title forState:UIControlStateNormal];
     [itemBtn setTitleColor:color forState:UIControlStateNormal];
     itemBtn.titleLabel.font = kNavItemFont;
