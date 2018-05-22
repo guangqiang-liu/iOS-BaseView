@@ -20,6 +20,10 @@
     
     self.title = @"导航Title";
     self.view.backgroundColor = [UIColor redColor];
+    
+//    [self setNavigationItemLeftBarButtonItem:@selector(xx) withTitle:@"adad" withTitleColor:[UIColor redColor]];
+//    [self setNavigationItemRightBarButtonItem:@selector(dda) withTitle:@"提交" withTitleColor:[UIColor purpleColor]];
+    [self setNavigationItemRightBarButtonItem:@selector(opopd) withImage:@"icon_back"];
 }
 
 @end

@@ -15,7 +15,6 @@
 		9CC4FF3420A40C4200232074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF3320A40C4200232074 /* main.m */; };
 		9CC4FF5F20A40C6E00232074 /* WLBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF3C20A40C6E00232074 /* WLBaseViewModel.m */; };
 		9CC4FF6020A40C6E00232074 /* UIViewController+WLNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF3F20A40C6E00232074 /* UIViewController+WLNavigationItem.m */; };
-		9CC4FF6120A40C6E00232074 /* UINavigationController+WLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF4020A40C6E00232074 /* UINavigationController+WLExtension.m */; };
 		9CC4FF6220A40C6E00232074 /* WLBaseCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF4620A40C6E00232074 /* WLBaseCollectionReusableView.m */; };
 		9CC4FF6320A40C6E00232074 /* WLBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF4A20A40C6E00232074 /* WLBaseCollectionViewCell.m */; };
 		9CC4FF6420A40C6E00232074 /* WLBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FF4B20A40C6E00232074 /* WLBaseView.m */; };
@@ -48,9 +47,7 @@
 		9CC4FF3320A40C4200232074 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9CC4FF3B20A40C6E00232074 /* WLBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseViewModel.h; sourceTree = "<group>"; };
 		9CC4FF3C20A40C6E00232074 /* WLBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLBaseViewModel.m; sourceTree = "<group>"; };
-		9CC4FF3E20A40C6E00232074 /* UINavigationController+WLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+WLExtension.h"; sourceTree = "<group>"; };
 		9CC4FF3F20A40C6E00232074 /* UIViewController+WLNavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WLNavigationItem.m"; sourceTree = "<group>"; };
-		9CC4FF4020A40C6E00232074 /* UINavigationController+WLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+WLExtension.m"; sourceTree = "<group>"; };
 		9CC4FF4120A40C6E00232074 /* UIViewController+WLNavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WLNavigationItem.h"; sourceTree = "<group>"; };
 		9CC4FF4320A40C6E00232074 /* WLBaseTableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseTableViewHeaderFooterView.h; sourceTree = "<group>"; };
 		9CC4FF4420A40C6E00232074 /* WLBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLBaseView.h; sourceTree = "<group>"; };
@@ -181,8 +178,6 @@
 			children = (
 				9CC4FF4120A40C6E00232074 /* UIViewController+WLNavigationItem.h */,
 				9CC4FF3F20A40C6E00232074 /* UIViewController+WLNavigationItem.m */,
-				9CC4FF3E20A40C6E00232074 /* UINavigationController+WLExtension.h */,
-				9CC4FF4020A40C6E00232074 /* UINavigationController+WLExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -386,7 +381,6 @@
 				9CC4FF6420A40C6E00232074 /* WLBaseView.m in Sources */,
 				9CC4FF6920A40C6E00232074 /* WLBaseTableView.m in Sources */,
 				9CC4FF6D20A40C6E00232074 /* WLBaseTableViewViewController.m in Sources */,
-				9CC4FF6120A40C6E00232074 /* UINavigationController+WLExtension.m in Sources */,
 				9CC4FF6E20A40C6E00232074 /* WLBaseModel.m in Sources */,
 				9CC4FF6620A40C6E00232074 /* WLBaseTableViewCell.m in Sources */,
 				9CC4FF3420A40C4200232074 /* main.m in Sources */,
