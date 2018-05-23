@@ -7,5 +7,5 @@ target 'WLBaseView' do
     
   # Pods for WLBaseView  
 
-  pod 'ReactiveObjC', '3.1.0'
+  pod 'ReactiveObjC'
 end
