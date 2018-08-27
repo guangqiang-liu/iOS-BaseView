@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WLBaseView'
-  s.version          = '0.2.6'
+  s.version          = '0.0.1'
   s.summary          = '常用View的基础base类'
 
 # This description is used to generate tags and improve search results.
@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
                        TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'git@gitlab.qianbaocard.org:iOS/base/WLBaseView.git'
+  s.homepage         = 'https://github.com/guangqiang-liu/GQBaseView'
   s.license          = "MIT"
   s.author           = { 'guangqiang' => '1126756952@qq.com' }
-  s.source           = { :git => 'git@gitlab.qianbaocard.org:iOS/base/WLBaseView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:guangqiang-liu/GQBaseView.git', :tag => s.version.to_s }
 
   s.platform         = :ios, "8.0"
   s.requires_arc     = true
