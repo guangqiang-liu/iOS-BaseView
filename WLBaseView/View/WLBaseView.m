@@ -28,8 +28,7 @@
 }
 
 - (instancetype)initWithViewModel:(WLBaseViewModel *)viewModel {
-    self = [super init];
-    if (self) {
+    if (self = [super init]) {
         _viewModel = viewModel;
     }
     return self;

@@ -23,8 +23,8 @@
     return self;
 }
 
-- (void)setCellModel:(id)cellModel {
-    _cellModel = cellModel;
+- (void)setRowData:(id)rowData {
+    _rowData = rowData;
 }
 
 - (void)setFrame:(CGRect)frame {
@@ -41,9 +41,14 @@
     return [UINib nibWithNibName:className bundle:nil];
 }
 
-- (void)updateWithCellData:(id)aData {}
+- (void)updateWithCellData:(id)aData {
+    self.rowData = aData;
+}
 
-- (void)updateWithCellData:(id)aData atIndexPath:(NSIndexPath *)indexPath {}
+- (void)updateWithCellData:(id)aData atIndexPath:(NSIndexPath *)indexPath {
+    self.rowData = aData;
+    self.indexPath = indexPath;
+}
 
 + (CGFloat)heightForCellData:(id)aData {
     return 0;

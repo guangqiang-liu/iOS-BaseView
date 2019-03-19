@@ -13,7 +13,7 @@
 /**
  * 子类使用的模型对象
  */
-@property (nonatomic, strong) id cellModel;
+@property (nonatomic, strong) id rowData;
 
 /**
  *  index

@@ -19,18 +19,22 @@
     return [UINib nibWithNibName:className bundle:nil];
 }
 
-- (void)updateWithCellData:(id)aData {}
+- (void)updateWithCellData:(id)aData {
+    self.rowData = aData;
+}
 
 - (void)setFrame:(CGRect)frame {
     CGRect rc = CGRectMake(frame.origin.x + self.cellEdgeInsets.left, frame.origin.y + self.cellEdgeInsets.top, frame.size.width - self.cellEdgeInsets.left - self.cellEdgeInsets.right, frame.size.height - self.cellEdgeInsets.top - self.cellEdgeInsets.bottom);
     [super setFrame:rc];
 }
 
-- (void)updateWithCellData:(id)aData atIndexPath:(NSIndexPath *)indexPath {}
+- (void)updateWithCellData:(id)aData atIndexPath:(NSIndexPath *)indexPath {
+    self.rowData = aData;
+    self.indexPath = indexPath;
+}
 
-
-- (void) setCellModel:(id)cellModel {
-    _cellModel = cellModel;
+- (void)setRowData:(id)rowData {
+    _rowData = rowData;
 }
 
 + (CGSize)sizeForCellData:(id)aData {
