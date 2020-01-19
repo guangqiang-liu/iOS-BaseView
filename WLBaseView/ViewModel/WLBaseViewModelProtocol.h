@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "WLBViewModelServiceImpProtocol.h"
+
 @protocol WLBaseViewModelProtocol <NSObject>
 
 @optional

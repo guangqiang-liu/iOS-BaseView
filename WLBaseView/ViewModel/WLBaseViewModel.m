@@ -29,8 +29,7 @@
 }
 
 - (instancetype)initWithService:(id<WLBViewModelServiceImpProtocol>)service params:(NSDictionary *)params {
-    self = [super init];
-    if (self) {
+    if (self = [super init]) {
         _service = service;
         _params = params;
     }
@@ -38,6 +37,7 @@
 }
 
 - (void)initialize {
+    
 }
 
 @end

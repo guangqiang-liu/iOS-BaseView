@@ -10,12 +10,12 @@
 
 @interface WLBaseViewController ()
 
-@property (nonatomic, getter=isViewAppeared) BOOL viewAppeared;
-@property (nonatomic, strong, readwrite) WLBaseViewModel *viewModel;
+@property (nonatomic, strong, readwrite) WLBaseViewModel *wlViewModel;
 @end
 
 @implementation WLBaseViewController
 
+#pragma mark - Init Methods
 + (instancetype)allocWithZone:(struct _NSZone *)zone {
     WLBaseViewController *viewController = [super allocWithZone:zone];
     @weakify(viewController)
@@ -23,64 +23,53 @@
         @strongify(viewController)
         [viewController renderViews];
         [viewController bindViewModel];
+        [viewController loadData];
     }];
     return viewController;
 }
 
-- (instancetype)initWithViewModel:(WLBaseViewModel *)viewModel {
-    self = [super init];
-    if (self) {
-        _viewModel = viewModel;
+- (instancetype)init {
+    if (self = [super init]) {
     }
     return self;
 }
 
-- (void)renderViews {}
+- (instancetype)initWithViewModel:(WLBaseViewModel *)viewModel {
+    if (self = [super init]) {
+        _wlViewModel = viewModel;
+    }
+    return self;
+}
 
-- (void)bindViewModel {}
+#pragma mark - LiftCycle Methods
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initialize];
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    self.navigationController.toolbarHidden = self.toolbarHidden;
-    self.navigationController.navigationBarHidden = self.navigationBarHidden;
-    if (!self.leftBarBtnHidden) {
-        [self setNavigationItemBackItem];
-    }
-}
-
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-    self.viewAppeared = YES;
-}
-
-- (void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
-    self.viewAppeared = NO;
-}
-
-#pragma mark - 基类初始化设置
+#pragma mark 初始化基类配置
 - (void)initialize {
-    self.navigationBarHidden = NO;
-    self.toolbarHidden = YES;
     self.titleColor = kNavTitleColor;
-    self.view.backgroundColor = kBgColor;
-    self.navigationController.navigationBar.translucent = NO;
-    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
-- (void)setTitleColor:(UIColor *)titleColor {
-    _titleColor = titleColor;
-    self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:titleColor, NSFontAttributeName: [UIFont systemFontOfSize:18.0f]};
-}
+- (void)renderViews {}
 
-- (void)setNavigationBarImage:(UIImage *)navigationBarImage {
-    _navigationBarImage = navigationBarImage;
-}
+- (void)bindViewModel {}
+
+- (void)loadData {}
 
 - (void)setStatusBarStyle:(StatusBarStyle)statusBarStyle {
     _statusBarStyle = statusBarStyle;
@@ -91,22 +80,17 @@
     }
 }
 
-- (void)setNavigationBarHidden:(BOOL)navigationBarHidden {
-    _navigationBarHidden = navigationBarHidden;
-    if (self.isViewLoaded) {
-        [self.navigationController setNavigationBarHidden:_navigationBarHidden];
-    }
+- (void)setTitleColor:(UIColor *)titleColor {
+    _titleColor = titleColor;
+    self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:titleColor, NSFontAttributeName: [UIFont boldSystemFontOfSize:17]};
 }
 
-- (void)setToolbarHidden:(BOOL)toolbarHidden {
-    _toolbarHidden = toolbarHidden;
-    if (self.isViewLoaded) {
-        [self.navigationController setToolbarHidden:_toolbarHidden];
-    }
+- (void)setTitleTextAttributes:(NSDictionary<NSAttributedStringKey, id> *)titleTextAttributes {
+    self.navigationController.navigationBar.titleTextAttributes = titleTextAttributes;
 }
 
 - (void)dealloc {
     [[NSNotificationCenter defaultCenter] removeObserver:self];
+    NSLog(@"=============== dealloc %@ ===============", NSStringFromClass([self class]));
 }
-
 @end

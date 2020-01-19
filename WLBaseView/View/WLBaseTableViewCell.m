@@ -17,6 +17,7 @@
         if (IOS_SDK_MORE_THAN_OR_EQUAL(7.0)) {
             self.separatorInset = UIEdgeInsetsZero;
         }
+        // cell 选中变灰色背景效果
         self.selectionStyle = UITableViewCellSelectionStyleNone;
         [self renderViews];
     }
@@ -110,5 +111,4 @@
 - (void)dealloc {}
 
 - (void)renderViews{};
-
 @end

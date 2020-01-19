@@ -18,16 +18,10 @@
     NSBundle *bundle = [NSBundle bundleForClass:NSClassFromString(@"WLBaseView")];
     UIImage *image = [UIImage imageNamed:@"icon_back" inBundle:bundle compatibleWithTraitCollection:nil];
     [itemBtn setImage:image forState:UIControlStateNormal];
-    [itemBtn setImageEdgeInsets:UIEdgeInsetsMake(0, -5, 0, 5)];
     itemBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
     [itemBtn addTarget:self action:@selector(popVC) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *item = [[UIBarButtonItem alloc]initWithCustomView:itemBtn];
     self.navigationItem.leftBarButtonItem = item;
-    
-    // 注意：此api只能在iOS 11之前的系统生效
-//    UIBarButtonItem * spaceItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
-//    spaceItem.width = -5;
-//    self.navigationItem.leftBarButtonItems = @[spaceItem, item];
 }
 
 - (void)setNavigationItemLeftBarButtonItem:(SEL)btnSel withTitle:(NSString *)title withTitleColor:(UIColor *)color {
@@ -36,7 +30,6 @@
     [itemBtn setTitle:title forState:UIControlStateNormal];
     [itemBtn setTitleColor:color forState:UIControlStateNormal];
     itemBtn.titleLabel.font = kNavItemFont;
-    [itemBtn setTitleEdgeInsets:UIEdgeInsetsMake(0, -5, 0, 5)];
     [itemBtn addTarget:self action:btnSel forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *item = [[UIBarButtonItem alloc]initWithCustomView:itemBtn];
     self.navigationItem.leftBarButtonItem = item;
@@ -46,7 +39,6 @@
     UIButton *itemBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     itemBtn.frame = CGRectMake(0, 0, 44, 44);
     [itemBtn setImage:image forState:UIControlStateNormal];
-//    [itemBtn setImageEdgeInsets:UIEdgeInsetsMake(0, -5, 0, 5)];
     itemBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
     [itemBtn addTarget:self action:btnSel forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *item = [[UIBarButtonItem alloc]initWithCustomView:itemBtn];
@@ -58,7 +50,6 @@
     itemBtn.frame = CGRectMake(0, 0, 44, 44);
     [itemBtn setImage:image forState:UIControlStateNormal];
     [itemBtn addTarget:self action:btnSel forControlEvents:UIControlEventTouchUpInside];
-    [itemBtn setImageEdgeInsets:UIEdgeInsetsMake(0, 5, 0, -5)];
     itemBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
     UIBarButtonItem *item = [[UIBarButtonItem alloc]initWithCustomView:itemBtn];
     self.navigationItem.rightBarButtonItem = item;
@@ -70,7 +61,6 @@
     [itemBtn setTitle:title forState:UIControlStateNormal];
     [itemBtn setTitleColor:color forState:UIControlStateNormal];
     itemBtn.titleLabel.font = kNavItemFont;
-    [itemBtn setTitleEdgeInsets:UIEdgeInsetsMake(0, 5, 0, -5)];
     itemBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
     [itemBtn addTarget:self action:btnSel forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *item = [[UIBarButtonItem alloc]initWithCustomView:itemBtn];
@@ -83,7 +73,6 @@
     [leftBtn setTitle:title forState:UIControlStateNormal];
     [leftBtn setTitleColor:color forState:UIControlStateNormal];
     leftBtn.titleLabel.font = kNavItemFont;
-    [leftBtn setTitleEdgeInsets:UIEdgeInsetsMake(0, -5, 0, -5)];
     leftBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
     [leftBtn addTarget:self action:leftSel forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *leftItem = [[UIBarButtonItem alloc]initWithCustomView:leftBtn];
@@ -105,5 +94,4 @@
 - (void)dismissVC {
     [self.navigationController dismissViewControllerAnimated:YES completion:nil];
 }
-
 @end

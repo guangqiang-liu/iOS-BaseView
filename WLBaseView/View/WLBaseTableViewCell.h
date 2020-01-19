@@ -49,5 +49,4 @@
 - (CGFloat)getCellHeight;
 
 - (void)updateWithCellData:(id)aData atIndexPath:(NSIndexPath *)indexPath;
-
 @end

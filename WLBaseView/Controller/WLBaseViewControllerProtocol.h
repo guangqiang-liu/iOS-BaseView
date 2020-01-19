@@ -9,14 +9,18 @@
 #import <Foundation/Foundation.h>
 
 @class WLBaseViewModel;
+
 @protocol WLBaseViewControllerProtocol <NSObject>
 
 @optional
-@property (nonatomic, strong, readonly) WLBaseViewModel *viewModel;
+
+@property (nonatomic, strong, readonly) WLBaseViewModel *wlViewModel;
 
 - (instancetype)initWithViewModel:(WLBaseViewModel *)viewModel;
 
 - (void)bindViewModel;
 
 - (void)renderViews;
+
+- (void)loadData;
 @end
